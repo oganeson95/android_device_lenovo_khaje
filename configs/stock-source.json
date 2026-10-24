@@ -1,0 +1,88 @@
+{
+  "original_images": {
+    "boot_a.img": {
+      "sha256": "e8a05050a553f1a0b0885b172a8c1639db542f99e8ae2a7af8720e39bb128fdc",
+      "dump_length": 100663296
+    },
+    "boot_b.img": {
+      "sha256": "e8a05050a553f1a0b0885b172a8c1639db542f99e8ae2a7af8720e39bb128fdc",
+      "dump_length": 100663296
+    },
+    "dtbo_a.img": {
+      "sha256": "7bb91dec16e3af9bf7029e1eb4884c494eda3918c2a6a3c3158df3e51e1416dc",
+      "dump_length": 25165824
+    },
+    "dtbo_b.img": {
+      "sha256": "4e27d8517fab2c05106f94463bf2921fd34712d789ac4bd541a1e2d0032c4679",
+      "dump_length": 25165824
+    },
+    "init_boot_a.img": {
+      "sha256": "d8a3afeaaaef010ed32a60911a4bee502cb5979855618f51bc7b394afce5cb69",
+      "dump_length": 8388608
+    },
+    "init_boot_b.img": {
+      "sha256": "0bddc68ca9bb0d59ccd483e7ac0ba80953b07eda0e8a14d492ea8e4147055e61",
+      "dump_length": 8388608
+    },
+    "super.img": {
+      "sha256": "ec62f6e1d83535ee5b7af577a040b3b8f6cb88222f53ebcc13984987c7c860a1",
+      "dump_length": 12884901888
+    },
+    "vbmeta_a.img": {
+      "sha256": "946ba1a70e12a35a319a5ff205ec7c442dd5a563e7f6902024e62cacb16cbef6",
+      "dump_length": 65536
+    },
+    "vbmeta_b.img": {
+      "sha256": "de19bd31a74b16ff5f53257ef64b4ea7d34bc6e7ac28d653cdbdb6160b499be9",
+      "dump_length": 65536
+    },
+    "vbmeta_system_a.img": {
+      "sha256": "bb74eadc56310c45b878f2db0c6533b94702d3175b2a09503445b798f11a0839",
+      "dump_length": 65536
+    },
+    "vbmeta_system_b.img": {
+      "sha256": "922ec41d9c3683fe7eb351b2d7cde563bedc4b03f70c0e9e63905a4161847c14",
+      "dump_length": 65536
+    },
+    "vendor_boot_a.img": {
+      "sha256": "916c6fe31164fae47eae727069e890e00685eda491797d3b3576a592357aa4ad",
+      "dump_length": 100663296
+    },
+    "vendor_boot_b.img": {
+      "sha256": "d43954f2057098956063173d1598492450b12d3846910ae8bda661f737ac2aac",
+      "dump_length": 100663296
+    }
+  },
+  "lp_metadata_view_1_sha256": "5f08fc3f64afc92c2c0ba19fb40546114e3f9f17f3781ecf6cfd8c867e37193a",
+  "kernel_payload_sha256": "c8931c292bf69e4dcbbc8506fa0927a276ae7b10f7acc72065f517c4b632a4bd",
+  "kernel_version": "5.15.149-android13-8-00014-gb219e2d2bfe5-ab12114171",
+  "prebuilt_version": ".572",
+  "blob_version": ".680",
+  "prebuilt_680_compatibility": "STRONGLY SUPPORTED stock reported kernel version + 296 loaded module names; exact file identity and Lineage runtime UNKNOWN",
+  "dt_policy": "preserve whole B/.680 containers, runtime slot _b DTB 0/DTBO 3 and matching vbmeta digest; binary readback hashes UNKNOWN",
+  "vendor_verity_proof": {
+    "vbmeta": "vbmeta_b.img",
+    "partition": "vendor",
+    "dm_verity_version": 1,
+    "image_size": 671649792,
+    "tree_offset": 671649792,
+    "tree_size": 5300224,
+    "data_block_size": 4096,
+    "hash_block_size": 4096,
+    "algorithm": "sha256",
+    "salt": "51fe3205a659106d7d3f8b91dc320a6a96ce536fc52d2b34b709eb2e3fdcf331",
+    "root_digest": "0912fdbd24dbeccef46815c9e5629cf4b3bcfa8f00d94a2eb63d21e2a860b8de",
+    "metadata_view": 1,
+    "image_path": "C:\\TB331FC-AOSP\\stock\\analysis\\extracted\\super_metadata_1\\vendor_b.img",
+    "computed_root_digest": "0912fdbd24dbeccef46815c9e5629cf4b3bcfa8f00d94a2eb63d21e2a860b8de",
+    "computed_tree_size": 5300224,
+    "computed_tree_sha256": "d752161d7c8ded41366b7e5b6fe207bc94e3a2e8762e2b367cc875c8f3d32211",
+    "root_matches": true,
+    "tree_matches": true,
+    "status": "checked"
+  },
+  "scope": "static audit, not runtime reconstruction; dump lengths are not independently confirmed GPT sizes",
+  "prebuilt_vendor_version": ".680",
+  "prebuilt_dtbo_version": ".680",
+  "runtime_evidence": "configs/runtime-observations.json"
+}

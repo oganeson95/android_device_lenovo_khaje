@@ -1,0 +1,6 @@
+__pycache__/
+prebuilts/stock_572/Image
+prebuilts/stock_572/vendor_boot.img
+prebuilts/stock_572/dtbo.img
+prebuilts/stock_680/vendor_boot.img
+prebuilts/stock_680/dtbo.img

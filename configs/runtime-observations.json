@@ -1,0 +1,149 @@
+{
+  "archive_sha256": "155af969a79c1672aab4bc589e3c8b37c7a13d6146792fb23b0109bdbb3b0a55",
+  "source_members": {
+    "audio.txt": {
+      "sha256": "c8e2bf91e58aae272fa9beeb804f54db44afeaa1587e24972cd89fb521f760ef",
+      "availability": "AVAILABLE"
+    },
+    "board_id.txt": {
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+      "availability": "EMPTY"
+    },
+    "bootconfig.txt": {
+      "sha256": "5fde849ae2007c1da705596fe111f545bc808989fdb05d6f9abba9dc65cc1241",
+      "availability": "DENIED"
+    },
+    "bootreason.txt": {
+      "sha256": "999664d628dbbfe25c80736f62df7213a01d867ee81a03590c011f6d12198640",
+      "availability": "AVAILABLE"
+    },
+    "boot_devices.txt": {
+      "sha256": "6f35ed54cfd259e317050b24c9c0ab0d9e84b4d8de7d20999988cdb34a41a874",
+      "availability": "AVAILABLE"
+    },
+    "by-name.txt": {
+      "sha256": "04d15843933b75b7849678e33112b62b59e09a9bb1de5c3db5b9af511341baf4",
+      "availability": "AVAILABLE"
+    },
+    "camera.txt": {
+      "sha256": "e2cfc42d54d2291914ade4b5a859ab8d65d24a878284a8b6c9156e8cdaf861e7",
+      "availability": "AVAILABLE"
+    },
+    "cmdline.txt": {
+      "sha256": "d297edad0f29ea8083b68be1a8aa37e6096b761de28b33413f88a1ed19320749",
+      "availability": "DENIED"
+    },
+    "dt_compatible.txt": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "availability": "EMPTY"
+    },
+    "dt_files.txt": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "availability": "EMPTY"
+    },
+    "dt_model.txt": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "availability": "EMPTY"
+    },
+    "fingerprint.txt": {
+      "sha256": "40b3e83332c9fa4c3f8a86c510af90e7cffbe3002d0b0ab380f30c34b3728d72",
+      "availability": "AVAILABLE"
+    },
+    "getprop.txt": {
+      "sha256": "e2568504f390bdf14b376c542ce6f9d191ea228796190ff4d77e4306c0337f37",
+      "availability": "AVAILABLE"
+    },
+    "hardware.txt": {
+      "sha256": "b26436864c51858bf73328a05a4d11dfa651c89e0e4228aec52de85f2b219dd0",
+      "availability": "AVAILABLE"
+    },
+    "input.txt": {
+      "sha256": "0031a1b2ca9b32a239d6e8dc0af97688c6f2a53c8af847520da03e667f1691af",
+      "availability": "AVAILABLE"
+    },
+    "kernel_version.txt": {
+      "sha256": "99ed7f5c903028445e5b5c7c1ad71854c3f7a2943977d494b767f25bc4ee57e2",
+      "availability": "AVAILABLE"
+    },
+    "mapper.txt": {
+      "sha256": "583dd629c288a5a30bcfff1a2fe5e420875cbd625f6aa3b0070c224944c3aa2d",
+      "availability": "AVAILABLE"
+    },
+    "modules.txt": {
+      "sha256": "a6d15872d85a58596c45fbfc39583752e9b2d56dc8a7f533ade28c2c3518b0d2",
+      "availability": "AVAILABLE"
+    },
+    "mount.txt": {
+      "sha256": "e86bf09527f44e26883ec4293b16d6f48f374306c4837bcb7da3f0f2054c28b7",
+      "availability": "AVAILABLE"
+    },
+    "partitions.txt": {
+      "sha256": "8ca49808b3626c5b5ee345a83f68408c981e66b72863c5761d42e1d8b596a8e8",
+      "availability": "DENIED"
+    },
+    "sensors.txt": {
+      "sha256": "0ec1a61c7bab5e11122b843a504c30b53c5fab487798aa0ad04904ee3f4fa73f",
+      "availability": "AVAILABLE"
+    },
+    "slot.txt": {
+      "sha256": "13131069f8d874b6d1ab343ca07f13073d02abbf2f0594cd7117a173f6ae6615",
+      "availability": "AVAILABLE"
+    },
+    "spl.txt": {
+      "sha256": "2f02c5fa1666e53574b2966af326db41040baee1b705ae4781396a35aaa1aecd",
+      "availability": "AVAILABLE"
+    },
+    "surfaceflinger.txt": {
+      "sha256": "3cda0e76d0e1faa1e1411e5b53c79122c599da1584dca32f3ee0908bc737535a",
+      "availability": "AVAILABLE"
+    },
+    "uname.txt": {
+      "sha256": "22c640208e5c7f8ed0e7154e40deb3fe95904efd79bb5de5cd4d5879c3cad897",
+      "availability": "AVAILABLE"
+    },
+    "vendor_fingerprint.txt": {
+      "sha256": "40b3e83332c9fa4c3f8a86c510af90e7cffbe3002d0b0ab380f30c34b3728d72",
+      "availability": "AVAILABLE"
+    }
+  },
+  "reported_slot": "_b",
+  "reported_dtb_index": 0,
+  "reported_dtbo_index": 3,
+  "dt_container_binary_identity": "STRONGLY SUPPORTED by runtime vbmeta digest + version + slot, not runtime readback hash",
+  "kernel_banner": "Linux version 5.15.149-android13-8-00014-gb219e2d2bfe5-ab12114171 (build-user@build-host) (Android (8508608, based on r450784e) clang version 14.0.7 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6), LLD 14.0.7) #1 SMP PREEMPT Fri Jul 19 10:39:04 UTC 2024",
+  "kernel_binary_identity": "UNKNOWN: banner matches reference, no runtime kernel hash",
+  "logical_density": {
+    "value": 240,
+    "evidence": "getprop.txt: ro.sf.lcd_density",
+    "status": "CONFIRMED stock policy, not physical panel DPI"
+  },
+  "product_nettype": {
+    "value": "wifi",
+    "properties": [
+      "ro.config.lgsi.device.nettype",
+      "ro.odm.lenovo.tablet",
+      "ro.vendor.config.lgsi.device.nettype"
+    ],
+    "status": "CONFIRMED reported stock product class"
+  },
+  "additional_seeds": {
+    "Audio": [
+      "lib64/soundfx/libswgamedap.so",
+      "lib64/soundfx/libdlbvol.so",
+      "lib64/soundfx/libswdap.so"
+    ],
+    "Sensors": [
+      "etc/sensors/config/msmnile_bmi3x0_0.json",
+      "etc/sensors/config/kona_ltr578_0.json"
+    ]
+  },
+  "selection_status": "INFERRED integration of enumerated runtime dependencies; completeness unproven",
+  "no_removals": "Original 68 seeds/dependencies retained; camera BOM still UNKNOWN",
+  "limits": [
+    "no physical partition sizes captured",
+    "no full cmdline or bootconfig captured",
+    "no runtime module file paths or hashes captured",
+    "no binary DT readback captured",
+    "no ABI graph or VINTF validation in LineageOS"
+  ]
+}

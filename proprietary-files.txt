@@ -1,0 +1,108 @@
+# Lenovo TB331FC / khaje: .680 LP view 1, experimental selection.
+# SHA-1 pins use LineageOS extract-utils syntax; SHA-256 and provenance are in configs/blob-plan.json.
+# No DISABLE_CHECKELF, fixups, blanket vendor copy, or kernel modules.
+# Variants included as candidates do not assert installed hardware.
+
+# Audio
+vendor/etc/acdbdata/bengal_idp/IDP_acdb_cal.acdb|c59c1bf2872ed8d4e38a12e96b65bc7c8856500b
+vendor/etc/acdbdata/bengal_qrd/QRD_acdb_cal.acdb|50b4973ba861983bd37c83055fb05ae75621f58f
+vendor/firmware/aw883xx_acf.bin|4b7a43fca15c12c3b3578b8752c6c6bf5533d014
+vendor/lib64/libdapparamstorage.so|c7c5a9b57d33396d9487a55969c6865f12b81358
+vendor/lib64/libdlbpreg.so|1be7e329091417901a34e4831eec1fad22f6b6bc
+vendor/lib64/libdmshal.so|6b91d2a5f42f34e969feab19268ea98b9cb01db1
+vendor/lib64/soundfx/libdlbvol.so|eceee0f7063cbcd33122ef4413fcc8858b03f0b3
+vendor/lib64/soundfx/libswdap.so|3c90eeee80fb064289552abf08c12e7cb37838b1
+vendor/lib64/soundfx/libswgamedap.so|584c21745a773438e1f3ca35c256c084ef018bc3
+vendor/lib64/vendor.dolby.dms-V1-ndk.so|a6e6b22ae9e3b92218fe5b53858f97212b0d1dea
+vendor/lib64/vendor.dolby.hardware.dms@2.0.so|3b836bb6efc90e674bd35c3b1a9b29129a495c28
+
+# Bluetooth
+vendor/lib64/libbtnv.so|67eb17dce254d9fa3ca6f7983dd20ba3b619cb7c
+
+# Camera
+vendor/etc/camera/camxoverridesettings.txt|33a412492ea264d5c4d245b6a8122183b3e25433
+vendor/lib64/camera/com.qti.sensor.elm_lce_s5k4h7_front_ii.so|0daf456d5d1394a4ffc031ca66b3d91658d36b30
+vendor/lib64/camera/com.qti.sensor.elm_lce_s5k4h7_rear_i.so|8ddaaf6d77b6c5e221fcaeb62079f9b61e17f53c
+vendor/lib64/camera/com.qti.sensor.elm_sunwin_sc820cs_rear_ii.so|19b05d82d7f29971f2866a51b16508ba40382ce1
+vendor/lib64/camera/com.qti.sensor.elm_txd_sc820cs_front_i.so|622bfe4870e5b57df3b509ee220bb723f482bf30
+vendor/lib64/hw/camera.qcom.so|ba89018737b308c6a223c8cc6a1bc3660d90e5b7
+vendor/lib64/libbitmlengine.so|ec1b969607a1475177678b3ef41a59ea8f15a4f5
+vendor/lib64/libcamera_nn_stub.so|be67c104a240d89699eac0620ba042076df42f9a
+vendor/lib64/libcamxfacialfeatures.so|85371a1d09091b0b7d79cfa271081f50ff9fe072
+vendor/lib64/libcamxfdalgo.so|ccab376b7a803f01ff9287acdc2a921ae9411d96
+vendor/lib64/libcamxfdengine.so|9be82fdba71ac1a69ce74b464d867eded868992b
+vendor/lib64/libcamximageformatutils.so|db666f0335cc8dc3242b4ef755a5e6fa0efe9395
+vendor/lib64/libcamxncs.so|f1f855e1ca7ba6bc5e6fce178ce63b478801ab1d
+vendor/lib64/libcamxstatscore.so|f5d21d92fdd029516df0fa6d07d574b0e99aa664
+vendor/lib64/libofflinelog.so|1fc0299a3c8adc72fe76e23288c21ee954048b3f
+vendor/lib64/libqmi_cci.so|8a73c939e4f6b26f5ab4cb38cbafbb39ac0b8b89
+vendor/lib64/libqmi_common_so.so|4e62fe1f0eeacebd7aa27fffabe9875402214325
+vendor/lib64/libqmi_encdec.so|8db7bfa00ecb1ecd93575c8e4680c1b40ecd19ac
+vendor/lib64/libsensorslog.so|b0e604866307ee1946ec5a1f29005d4fc59f6936
+vendor/lib64/libsnsapi.so|c946d951619ab32ebbbb34ff645f575dd484ab12
+
+# Display
+vendor/lib64/libqseed3.so|729177a209f7e0c32887e4666272fa75bd42b253
+vendor/lib64/libsdm-color.so|680fe545ab05ce4890e2d69b4372bed9dad62c6e
+
+# DRM
+vendor/bin/hw/android.hardware.drm-service.widevine|dbc47d0c8f32fe5a3e37667e8f6dd5ffa6921801
+vendor/etc/init/android.hardware.drm-service.widevine.rc|54c79ef531c9c135fa234a8515b3d37f0e1ccc4d
+vendor/etc/vintf/manifest/manifest_android.hardware.drm-service.widevine.xml|7e13b6628572b1cdd76351b744e2805d4e6f2dd9
+vendor/lib64/libwvaidl.so|eeaad72a3133c88b82b7f70020f34e5b2c36216b
+
+# Graphics
+vendor/lib/egl/libEGL_adreno.so|26b43987d78516aa4b9e948960a7d9106c48e256
+vendor/lib/egl/libGLESv2_adreno.so|106a09a3b819601a29ef78145e1c9cefec460524
+vendor/lib/hw/vulkan.adreno.so|baff65d7c29fd874d5748ad80790f1469a35ec72
+vendor/lib/libadreno_utils.so|29dc25e4b5c87f49c2b5eec9065fe46c021b377c
+vendor/lib/libgsl.so|28dc8b2ed59e267a9b98843c64ece50326972526
+vendor/lib/libllvm-glnext.so|7efa921c4ee3b583edb635a4a877989a6797370a
+vendor/lib64/egl/libEGL_adreno.so|579730142b5d41bd890530861cb8efdeef4b83e9
+vendor/lib64/egl/libGLESv2_adreno.so|56431c0481a7c62ca7f05450081077d10cc119bc
+vendor/lib64/hw/vulkan.adreno.so|ac9ddefc1bfb2f370e1ff8b8a53ca3847634c20f
+vendor/lib64/libadreno_utils.so|84b4baf60c25406fa59bf7a7b6402304b7a59f60
+vendor/lib64/libgsl.so|c8d073849d9a9353f0f46379b9da87360d2c3038
+vendor/lib64/libllvm-glnext.so|af4af061a1b5c85cf121014b31c8cc16609c96ca
+
+# Media
+vendor/firmware/venus.mbn|9a01bb4c848397d154953dea05fc80e51ee50ce8
+
+# Sensors
+vendor/etc/sensors/config/kona_ltr578_0.json|95d1aa5c23938141281353117214e0f518d525ab
+vendor/etc/sensors/config/msmnile_bmi3x0_0.json|3248e2a4df948522c9c09181230d428e349f3efe
+vendor/etc/sensors/hals.conf|bf3677cbfa5ce5735662e8c259cb027969f65c87
+vendor/etc/sensors/sns_reg_config|82f1ad688cad61124baae6608cc82d58cf49780e
+vendor/lib64/libdiag.so|b4e37ad81037d552f04ea3616d45eb12a3f7d495
+vendor/lib64/libsns_fastRPC_util.so|089521ea311d234837ed107900ea7465a8ea0b4c
+vendor/lib64/libsnsdiaglog.so|de92e79ab6bc9dbea79d1cdc2a76cf1892e65763
+vendor/lib64/libssc.so|2b0b2fecbbbdfe13e6d0a80b9c293f72cc41c02c
+vendor/lib64/sensors.ssc.so|70fa745aff77dacf0d4c9e95e6ec67c0a80fa7ae
+
+# Wi-Fi
+vendor/etc/wifi/WCNSS_qcom_cfg.ini|84fd9d15b39fff51f182f9d75cd4c7db56b1b24d
+
+# Power
+vendor/etc/powerhint.xml|1ae3f192569a6dcd9c789201de96cf228a1aef73
+
+# Thermal
+vendor/bin/thermal-engine-v2|a6729ed5b96f1c981cbe33519d3c630f71cf81f8
+vendor/etc/init/init_thermal-engine-v2.rc|3ebe0e867707876cea6cfcd51d34626d775107be
+vendor/etc/thermal-engine.conf|f8f4d9a7b190bf393286e892437d85084cdb8f95
+
+# Lenovo-specific
+vendor/bin/hw/vendor.lenovo.hardware.battery-service|669e48d943d9ec7539dbbf77564f0f374fd55482
+vendor/bin/hw/vendor.lenovo.hardware.display-service|8bc1f7f8cbdab828a02bb85e0bdc7cdc04bdbc23
+vendor/bin/hw/vendor.lenovo.hardware.touchscreen-service|f95279b778696211af086fa5634eaaef12d5efdf
+vendor/etc/init/vendor.lenovo.hardware.battery-service.rc|7f8aa37a49dfe1d813d689da4e2a57366e579ba7
+vendor/etc/init/vendor.lenovo.hardware.display-service.rc|de592fa370921faf66dda700b45e35b9befd66ae
+vendor/etc/init/vendor.lenovo.hardware.touchscreen-service.rc|84b1343124438078c1a1ee4996644a9412b97585
+vendor/etc/vintf/manifest/vendor.lenovo.hardware.battery-service.xml|b75d4e09471b88e4db203832ddd12b226d64c09d
+vendor/etc/vintf/manifest/vendor.lenovo.hardware.display-service.xml|793c6e7e594ccdabb537711dba0624d957188c0e
+vendor/etc/vintf/manifest/vendor.lenovo.hardware.touchscreen-service.xml|048e9e7e0a41fda2849db220440014dcad982263
+vendor/lib64/vendor.lenovo.hardware.battery-V3-ndk.so|c0cf3d859ddc223b54ccf566a5699a789c2beb7e
+vendor/lib64/vendor.lenovo.hardware.display-V1-ndk.so|1851122cc0dfc6058a32ef8330c23f20a887764e
+vendor/lib64/vendor.lenovo.hardware.touchscreen-V2-ndk.so|716d4c65afe4acb8ff22ad945bf7d2eb8b2e734d
+
+# Qualcomm-specific
+vendor/firmware/ipa_fws.elf|222f172c9c7b6220ff40fdbbcbaf5896b3ebd9b1
