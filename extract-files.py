@@ -10,11 +10,41 @@ sys.path.insert(0, str(ANDROID_ROOT / 'tools' / 'extract-utils'))
 
 try:
     from extract_utils.main import ExtractUtils
+    from extract_utils.fixups_blob import blob_fixup
     from extract_utils.module import ExtractUtilsModule
 except ModuleNotFoundError as exc:
     raise SystemExit('Missing LineageOS lineage-22.2 tools/extract-utils checkout: ' + str(exc))
 
-module = ExtractUtilsModule('khaje', 'lenovo', check_elf=True)
+def lib_fixup_protobuf_vendorcompat(lib: str, partition: str, *args, **kwargs):
+    return f'{lib}-vendorcompat' if partition == 'vendor' else None
+
+
+lib_fixups = {
+    (
+        'libprotobuf-cpp-full-3.9.1',
+        'libprotobuf-cpp-lite-3.9.1',
+    ): lib_fixup_protobuf_vendorcompat,
+}
+
+
+blob_fixups = {
+    'vendor/bin/hw/vendor.lenovo.hardware.battery-service': blob_fixup()
+        .add_needed('libbase_shim.so'),
+}
+
+
+module = ExtractUtilsModule(
+    'khaje',
+    'lenovo',
+    lib_fixups=lib_fixups,
+    blob_fixups=blob_fixups,
+    namespace_imports=[
+        'device/lenovo/khaje',
+        'hardware/qcom/sm7250/display',
+        'vendor/qcom/opensource/display',
+    ],
+    check_elf=True,
+)
 
 
 def main():

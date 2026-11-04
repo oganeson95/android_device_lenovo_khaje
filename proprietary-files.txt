@@ -106,3 +106,12 @@ vendor/lib64/vendor.lenovo.hardware.touchscreen-V2-ndk.so|716d4c65afe4acb8ff22ad
 
 # Qualcomm-specific
 vendor/firmware/ipa_fws.elf|222f172c9c7b6220ff40fdbbcbaf5896b3ebd9b1
+vendor/lib64/libcdsprpc.so|785abac85595189771d69667aed9b224c93c705d
+vendor/lib64/libvmmem.so|3688346f3ce6dc8fc860ba04248380ad84bf046b
+vendor/lib64/vendor.qti.hardware.dsp@1.0.so|d10d62a57b59a0323170799e256ee49ba1481494
+vendor/lib64/libtinyxml2_1.so|5499ace9f52b0e625613cfffaa612a62aa4a48ff
+vendor/lib/libtinyxml2_1.so|4e90dfb088accdee0751394f10fae3216241b000
+vendor/lib64/vendor.qti.hardware.vpp@1.1.so|6d581aad7f42622eb169113b6a4462f84d158dcc
+vendor/lib64/vendor.qti.hardware.vpp@1.2.so|ee1b848609221d5ff3b276ab501872efc5e2f5d7
+vendor/lib/vendor.qti.hardware.vpp@1.1.so|dadca14dd5a0b941011a58d3907b4a08046be6f7
+vendor/lib/vendor.qti.hardware.vpp@1.2.so|bf71f893c9bf5379d8cf7071595750d5ed2cd980

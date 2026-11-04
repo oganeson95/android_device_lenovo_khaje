@@ -193,4 +193,20 @@ def verify_stage(stage):
 
 
 def verify_vendor(proprietary):
-    verify_files(proprietary)
+    proprietary = Path(proprietary)
+
+    transformed = {
+        'vendor/bin/hw/vendor.lenovo.hardware.battery-service',
+        'vendor/lib/libprotobuf-cpp-lite-3.9.1.so',
+        'vendor/lib64/libprotobuf-cpp-lite-3.9.1.so',
+        'vendor/lib/libprotobuf-cpp-full-3.9.1.so',
+        'vendor/lib64/libprotobuf-cpp-full-3.9.1.so',
+    }
+
+    for entry in plan()['files']:
+        if entry['path'] in transformed:
+            continue
+
+        file = proprietary / entry['path']
+        if file.is_symlink() or not file.is_file() or sha256_file(file) != entry['sha256']:
+            raise ValueError('Missing or changed pinned blob: ' + str(file))

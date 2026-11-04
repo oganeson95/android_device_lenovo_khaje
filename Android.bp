@@ -2,3 +2,10 @@
 // The generated vendor namespace is imported only after selective extraction.
 soong_namespace {
 }
+
+cc_library_shared {
+    name: "libbase_shim",
+    srcs: ["shims/libbase_shim.cpp"],
+    shared_libs: ["libbase"],
+    vendor: true,
+}

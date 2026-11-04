@@ -2654,6 +2654,441 @@
       "provenance": "CONFIRMED",
       "selection_status": "INFERRED initial candidate, not final working set",
       "proprietary_status": "candidate; replacement from matching source must be audited"
+    },
+    {
+      "group": "Qualcomm dependency",
+      "reason": "ELF DT_NEEDED dependency",
+      "requested_by": [
+        "vendor/lib64/hw/camera.qcom.so",
+        "vendor/lib64/libcamximageformatutils.so",
+        "vendor/lib64/libcamxfdengine.so",
+        "vendor/lib64/libbitmlengine.so",
+        "vendor/lib64/libcamera_nn_stub.so"
+      ],
+      "path": "vendor/lib64/libcdsprpc.so",
+      "source_partition": "vendor_b",
+      "metadata_view": 1,
+      "inode": 2479,
+      "source_file": "analysis/filesystems/vendor_b/lib64/libcdsprpc.so",
+      "source_original": "super.img",
+      "source_original_sha256": "ec62f6e1d83535ee5b7af577a040b3b8f6cb88222f53ebcc13984987c7c860a1",
+      "sha256": "2b431d15e32f56160b1f6a26664ff6fecc8d49f3f64eb51f3a3a477590be1f40",
+      "sha1": "785abac85595189771d69667aed9b224c93c705d",
+      "size": 438368,
+      "elf": {
+        "file": "analysis/filesystems/vendor_b/lib64/libcdsprpc.so",
+        "bits": 64,
+        "machine": 183,
+        "needed": [
+          "libhidlbase.so",
+          "libhardware.so",
+          "libutils.so",
+          "vendor.qti.hardware.dsp@1.0.so",
+          "liblog.so",
+          "libc.so",
+          "libcutils.so",
+          "libdmabufheap.so",
+          "libvmmem.so",
+          "libc++.so",
+          "libm.so",
+          "libdl.so"
+        ],
+        "soname": "libcdsprpc.so"
+      },
+      "provenance": "CONFIRMED",
+      "selection_status": "SELECTED stock dependency",
+      "proprietary_status": "stock proprietary dependency"
+    },
+    {
+      "group": "Qualcomm dependency",
+      "reason": "ELF DT_NEEDED dependency",
+      "requested_by": [
+        "vendor/lib64/libcdsprpc.so"
+      ],
+      "path": "vendor/lib64/vendor.qti.hardware.dsp@1.0.so",
+      "source_partition": "vendor_b",
+      "metadata_view": 1,
+      "inode": 2974,
+      "source_file": "analysis/filesystems/vendor_b/lib64/vendor.qti.hardware.dsp@1.0.so",
+      "source_original": "super.img",
+      "source_original_sha256": "ec62f6e1d83535ee5b7af577a040b3b8f6cb88222f53ebcc13984987c7c860a1",
+      "sha256": "d273dfeebed08c20278aa847a0718b809a738c41bb8502596d7d55ec588cc4b9",
+      "sha1": "d10d62a57b59a0323170799e256ee49ba1481494",
+      "size": 156160,
+      "elf": {
+        "file": "analysis/filesystems/vendor_b/lib64/vendor.qti.hardware.dsp@1.0.so",
+        "bits": 64,
+        "machine": 183,
+        "needed": [
+          "libhidlbase.so",
+          "liblog.so",
+          "libutils.so",
+          "libcutils.so",
+          "libc++.so",
+          "libc.so",
+          "libm.so",
+          "libdl.so"
+        ],
+        "soname": "vendor.qti.hardware.dsp@1.0.so"
+      },
+      "provenance": "CONFIRMED",
+      "selection_status": "SELECTED stock dependency",
+      "proprietary_status": "stock proprietary dependency"
+    },
+    {
+      "group": "Qualcomm dependency",
+      "reason": "ELF DT_NEEDED dependency",
+      "requested_by": [
+        "vendor/lib64/libcdsprpc.so"
+      ],
+      "path": "vendor/lib64/libvmmem.so",
+      "source_partition": "vendor_b",
+      "metadata_view": 1,
+      "inode": 2800,
+      "source_file": "analysis/filesystems/vendor_b/lib64/libvmmem.so",
+      "source_original": "super.img",
+      "source_original_sha256": "ec62f6e1d83535ee5b7af577a040b3b8f6cb88222f53ebcc13984987c7c860a1",
+      "sha256": "ec3e583eab99f5670de517e04b94741e65aea4a90288ebf49acbb55a3ea253cf",
+      "sha1": "3688346f3ce6dc8fc860ba04248380ad84bf046b",
+      "size": 40592,
+      "elf": {
+        "file": "analysis/filesystems/vendor_b/lib64/libvmmem.so",
+        "bits": 64,
+        "machine": 183,
+        "needed": [
+          "liblog.so",
+          "libbase.so",
+          "libc++.so",
+          "libc.so",
+          "libm.so",
+          "libdl.so"
+        ],
+        "soname": "libvmmem.so"
+      },
+      "provenance": "CONFIRMED",
+      "selection_status": "SELECTED stock dependency",
+      "proprietary_status": "stock proprietary dependency"
+    },
+    {
+      "path": "vendor/lib64/libprotobuf-cpp-lite-3.9.1.so",
+      "group": "Qualcomm dependency",
+      "reason": "ELF DT_NEEDED dependency",
+      "requested_by": [
+        "vendor/lib64/libsnsapi.so",
+        "vendor/lib64/libwvaidl.so"
+      ],
+      "source_partition": "vendor_b",
+      "metadata_view": 1,
+      "inode": 2665,
+      "size": 498744,
+      "sha1": "cfd0e4bb44ba8662a4935f657cd8920085a0cea8",
+      "sha256": "0c57ee6edf880699fde03f8f9fe9409bc7f4ef06c316cc8d8d9ffee3aa2103e0",
+      "source_file": "analysis/filesystems/vendor_b/lib64/libprotobuf-cpp-lite-3.9.1.so",
+      "source_original": "super.img",
+      "source_original_sha256": "ec62f6e1d83535ee5b7af577a040b3b8f6cb88222f53ebcc13984987c7c860a1",
+      "elf": {
+        "bits": 64,
+        "machine": 183,
+        "needed": [
+          "liblog.so",
+          "libc++.so",
+          "libc.so",
+          "libm.so",
+          "libdl.so"
+        ],
+        "soname": "libprotobuf-cpp-lite-3.9.1.so"
+      },
+      "provenance": "CONFIRMED",
+      "selection_status": "SELECTED stock dependency",
+      "proprietary_status": "stock proprietary dependency"
+    },
+    {
+      "path": "vendor/lib/libprotobuf-cpp-lite-3.9.1.so",
+      "group": "Qualcomm dependency",
+      "reason": "ELF DT_NEEDED dependency",
+      "requested_by": [],
+      "source_partition": "vendor_b",
+      "metadata_view": 1,
+      "inode": 1648,
+      "size": 362788,
+      "sha1": "ddd68477e170564bb5b861b126019a2c291d6ac0",
+      "sha256": "092190313a1c9a2f2da32ede0d2898d482c80e25d9389605b44ce9995aaba4ee",
+      "source_file": "analysis/filesystems/vendor_b/lib/libprotobuf-cpp-lite-3.9.1.so",
+      "source_original": "super.img",
+      "source_original_sha256": "ec62f6e1d83535ee5b7af577a040b3b8f6cb88222f53ebcc13984987c7c860a1",
+      "elf": {
+        "bits": 32,
+        "machine": 40,
+        "needed": [
+          "liblog.so",
+          "libc++.so",
+          "libc.so",
+          "libm.so",
+          "libdl.so"
+        ],
+        "soname": "libprotobuf-cpp-lite-3.9.1.so"
+      },
+      "provenance": "CONFIRMED",
+      "selection_status": "SELECTED stock dependency",
+      "proprietary_status": "stock proprietary dependency"
+    },
+    {
+      "path": "vendor/lib64/libtinyxml2_1.so",
+      "group": "Qualcomm dependency",
+      "reason": "ELF DT_NEEDED dependency",
+      "requested_by": [
+        "vendor/lib64/libsdm-color.so"
+      ],
+      "source_partition": "vendor_b",
+      "metadata_view": 1,
+      "inode": 2794,
+      "size": 108824,
+      "sha1": "5499ace9f52b0e625613cfffaa612a62aa4a48ff",
+      "sha256": "d1768caf8622aea5ae3fb8c8d2d08e6f0bc0cea6f4951290df5dacd1dd7c3768",
+      "source_file": "analysis/filesystems/vendor_b/lib64/libtinyxml2_1.so",
+      "source_original": "super.img",
+      "source_original_sha256": "ec62f6e1d83535ee5b7af577a040b3b8f6cb88222f53ebcc13984987c7c860a1",
+      "elf": {
+        "bits": 64,
+        "machine": 183,
+        "needed": [
+          "libc++.so",
+          "libc.so",
+          "libm.so",
+          "libdl.so"
+        ],
+        "soname": "libtinyxml2_1.so"
+      },
+      "provenance": "CONFIRMED",
+      "selection_status": "SELECTED stock dependency",
+      "proprietary_status": "stock proprietary dependency"
+    },
+    {
+      "path": "vendor/lib/libtinyxml2_1.so",
+      "group": "Qualcomm dependency",
+      "reason": "ELF DT_NEEDED dependency",
+      "requested_by": [],
+      "source_partition": "vendor_b",
+      "metadata_view": 1,
+      "inode": 1796,
+      "size": 66908,
+      "sha1": "4e90dfb088accdee0751394f10fae3216241b000",
+      "sha256": "cba28a312baddfaa802df8f987975a67c502156685bc553ae7ad03fe4d350fb9",
+      "source_file": "analysis/filesystems/vendor_b/lib/libtinyxml2_1.so",
+      "source_original": "super.img",
+      "source_original_sha256": "ec62f6e1d83535ee5b7af577a040b3b8f6cb88222f53ebcc13984987c7c860a1",
+      "elf": {
+        "bits": 32,
+        "machine": 40,
+        "needed": [
+          "libc++.so",
+          "libc.so",
+          "libm.so",
+          "libdl.so"
+        ],
+        "soname": "libtinyxml2_1.so"
+      },
+      "provenance": "CONFIRMED",
+      "selection_status": "SELECTED stock dependency",
+      "proprietary_status": "stock proprietary dependency"
+    },
+    {
+      "path": "vendor/lib64/libprotobuf-cpp-full-3.9.1.so",
+      "group": "Qualcomm dependency",
+      "reason": "ELF DT_NEEDED dependency",
+      "requested_by": [
+        "vendor/lib64/libcamxncs.so"
+      ],
+      "source_partition": "vendor_b",
+      "metadata_view": 1,
+      "inode": 2664,
+      "size": 2261872,
+      "sha1": "5f07a4da7446d3d817abeb31eb675cb0f0204a1c",
+      "sha256": "acb3f28093f7dad0f349f8ef8e649b9c8e30807afd61f741efe7b0b7acb6629f",
+      "source_file": "analysis/filesystems/vendor_b/lib64/libprotobuf-cpp-full-3.9.1.so",
+      "source_original": "super.img",
+      "source_original_sha256": "ec62f6e1d83535ee5b7af577a040b3b8f6cb88222f53ebcc13984987c7c860a1",
+      "elf": {
+        "bits": 64,
+        "machine": 183,
+        "needed": [
+          "libz.so",
+          "liblog.so",
+          "libc++.so",
+          "libc.so",
+          "libm.so",
+          "libdl.so"
+        ],
+        "soname": "libprotobuf-cpp-full-3.9.1.so"
+      },
+      "provenance": "CONFIRMED",
+      "selection_status": "SELECTED stock dependency",
+      "proprietary_status": "stock proprietary dependency"
+    },
+    {
+      "path": "vendor/lib/libprotobuf-cpp-full-3.9.1.so",
+      "group": "Qualcomm dependency",
+      "reason": "ELF DT_NEEDED dependency",
+      "requested_by": [],
+      "source_partition": "vendor_b",
+      "metadata_view": 1,
+      "inode": 1647,
+      "size": 1635860,
+      "sha1": "8798db96029bafc3ab1a7d73728e4f66ff0e2295",
+      "sha256": "27806f944021cc8f43009dfec5c2d7d1c0ef44445423db8dd4e3972fe262c9ae",
+      "source_file": "analysis/filesystems/vendor_b/lib/libprotobuf-cpp-full-3.9.1.so",
+      "source_original": "super.img",
+      "source_original_sha256": "ec62f6e1d83535ee5b7af577a040b3b8f6cb88222f53ebcc13984987c7c860a1",
+      "elf": {
+        "bits": 32,
+        "machine": 40,
+        "needed": [
+          "libz.so",
+          "liblog.so",
+          "libc++.so",
+          "libc.so",
+          "libm.so",
+          "libdl.so"
+        ],
+        "soname": "libprotobuf-cpp-full-3.9.1.so"
+      },
+      "provenance": "CONFIRMED",
+      "selection_status": "SELECTED stock dependency",
+      "proprietary_status": "stock proprietary dependency"
+    },
+    {
+      "path": "vendor/lib64/vendor.qti.hardware.vpp@1.1.so",
+      "group": "Qualcomm dependency",
+      "reason": "ELF DT_NEEDED dependency",
+      "requested_by": [],
+      "source_partition": "vendor_b",
+      "metadata_view": 1,
+      "inode": 3049,
+      "size": 237008,
+      "sha1": "6d581aad7f42622eb169113b6a4462f84d158dcc",
+      "sha256": "5f88840a302711bfe2028b924ff1a40b8b7e8283511098b5f3a14e9a6e691268",
+      "source_file": "analysis/filesystems/vendor_b/lib64/vendor.qti.hardware.vpp@1.1.so",
+      "source_original": "super.img",
+      "source_original_sha256": "ec62f6e1d83535ee5b7af577a040b3b8f6cb88222f53ebcc13984987c7c860a1",
+      "elf": {
+        "bits": 64,
+        "machine": 183,
+        "needed": [
+          "libhidlbase.so",
+          "liblog.so",
+          "libutils.so",
+          "libcutils.so",
+          "libc++.so",
+          "libc.so",
+          "libm.so",
+          "libdl.so"
+        ],
+        "soname": "vendor.qti.hardware.vpp@1.1.so"
+      },
+      "provenance": "CONFIRMED",
+      "selection_status": "SELECTED stock dependency",
+      "proprietary_status": "stock proprietary dependency"
+    },
+    {
+      "path": "vendor/lib64/vendor.qti.hardware.vpp@1.2.so",
+      "group": "Qualcomm dependency",
+      "reason": "ELF DT_NEEDED dependency",
+      "requested_by": [],
+      "source_partition": "vendor_b",
+      "metadata_view": 1,
+      "inode": 3050,
+      "size": 183240,
+      "sha1": "ee1b848609221d5ff3b276ab501872efc5e2f5d7",
+      "sha256": "f94aa96e36fb628168214c36baaac7061064dedd013298587cf54920216f24c1",
+      "source_file": "analysis/filesystems/vendor_b/lib64/vendor.qti.hardware.vpp@1.2.so",
+      "source_original": "super.img",
+      "source_original_sha256": "ec62f6e1d83535ee5b7af577a040b3b8f6cb88222f53ebcc13984987c7c860a1",
+      "elf": {
+        "bits": 64,
+        "machine": 183,
+        "needed": [
+          "vendor.qti.hardware.vpp@1.1.so",
+          "libhidlbase.so",
+          "liblog.so",
+          "libutils.so",
+          "libcutils.so",
+          "libc++.so",
+          "libc.so",
+          "libm.so",
+          "libdl.so"
+        ],
+        "soname": "vendor.qti.hardware.vpp@1.2.so"
+      },
+      "provenance": "CONFIRMED",
+      "selection_status": "SELECTED stock dependency",
+      "proprietary_status": "stock proprietary dependency"
+    },
+    {
+      "path": "vendor/lib/vendor.qti.hardware.vpp@1.1.so",
+      "group": "Qualcomm dependency",
+      "reason": "ELF DT_NEEDED dependency",
+      "requested_by": [],
+      "source_partition": "vendor_b",
+      "metadata_view": 1,
+      "inode": 2014,
+      "size": 176940,
+      "sha1": "dadca14dd5a0b941011a58d3907b4a08046be6f7",
+      "sha256": "039848ed4b884c973f2a1f3971517e759a2f21f7780e9e09d4bbf8136931c390",
+      "source_file": "analysis/filesystems/vendor_b/lib/vendor.qti.hardware.vpp@1.1.so",
+      "source_original": "super.img",
+      "source_original_sha256": "ec62f6e1d83535ee5b7af577a040b3b8f6cb88222f53ebcc13984987c7c860a1",
+      "elf": {
+        "bits": 32,
+        "machine": 40,
+        "needed": [
+          "libhidlbase.so",
+          "liblog.so",
+          "libutils.so",
+          "libcutils.so",
+          "libc++.so",
+          "libc.so",
+          "libm.so",
+          "libdl.so"
+        ],
+        "soname": "vendor.qti.hardware.vpp@1.1.so"
+      },
+      "provenance": "CONFIRMED",
+      "selection_status": "SELECTED stock dependency",
+      "proprietary_status": "stock proprietary dependency"
+    },
+    {
+      "path": "vendor/lib/vendor.qti.hardware.vpp@1.2.so",
+      "group": "Qualcomm dependency",
+      "reason": "ELF DT_NEEDED dependency",
+      "requested_by": [],
+      "source_partition": "vendor_b",
+      "metadata_view": 1,
+      "inode": 2015,
+      "size": 142128,
+      "sha1": "bf71f893c9bf5379d8cf7071595750d5ed2cd980",
+      "sha256": "893dcf0885a6bce896cb6947fb5234c60d53b57808ab36a7fb91083f26799022",
+      "source_file": "analysis/filesystems/vendor_b/lib/vendor.qti.hardware.vpp@1.2.so",
+      "source_original": "super.img",
+      "source_original_sha256": "ec62f6e1d83535ee5b7af577a040b3b8f6cb88222f53ebcc13984987c7c860a1",
+      "elf": {
+        "bits": 32,
+        "machine": 40,
+        "needed": [
+          "vendor.qti.hardware.vpp@1.1.so",
+          "libhidlbase.so",
+          "liblog.so",
+          "libutils.so",
+          "libcutils.so",
+          "libc++.so",
+          "libc.so",
+          "libm.so",
+          "libdl.so"
+        ],
+        "soname": "vendor.qti.hardware.vpp@1.2.so"
+      },
+      "provenance": "CONFIRMED",
+      "selection_status": "SELECTED stock dependency",
+      "proprietary_status": "stock proprietary dependency"
     }
   ],
   "dependency_edges": [
@@ -3088,8 +3523,8 @@
       "consumer": "vendor/lib64/hw/camera.qcom.so",
       "bits": 64,
       "needed": "libcdsprpc.so",
-      "resolution": "SOURCE_PROVIDER_PENDING",
-      "reason": "AOSP/platform or interface candidate: must resolve module and ABI in lineage-22.2, never auto-copy"
+      "resolution": "SELECTED_STOCK_DEPENDENCY",
+      "provider": "vendor/lib64/libcdsprpc.so"
     },
     {
       "consumer": "vendor/lib64/hw/camera.qcom.so",
@@ -5524,8 +5959,8 @@
       "consumer": "vendor/lib64/libcamximageformatutils.so",
       "bits": 64,
       "needed": "libcdsprpc.so",
-      "resolution": "SOURCE_PROVIDER_PENDING",
-      "reason": "AOSP/platform or interface candidate: must resolve module and ABI in lineage-22.2, never auto-copy"
+      "resolution": "SELECTED_STOCK_DEPENDENCY",
+      "provider": "vendor/lib64/libcdsprpc.so"
     },
     {
       "consumer": "vendor/lib64/libcamximageformatutils.so",
@@ -6042,8 +6477,8 @@
       "consumer": "vendor/lib64/libcamxfdengine.so",
       "bits": 64,
       "needed": "libcdsprpc.so",
-      "resolution": "SOURCE_PROVIDER_PENDING",
-      "reason": "AOSP/platform or interface candidate: must resolve module and ABI in lineage-22.2, never auto-copy"
+      "resolution": "SELECTED_STOCK_DEPENDENCY",
+      "provider": "vendor/lib64/libcdsprpc.so"
     },
     {
       "consumer": "vendor/lib64/libcamxfdengine.so",
@@ -6868,8 +7303,8 @@
       "consumer": "vendor/lib64/libbitmlengine.so",
       "bits": 64,
       "needed": "libcdsprpc.so",
-      "resolution": "SOURCE_PROVIDER_PENDING",
-      "reason": "AOSP/platform or interface candidate: must resolve module and ABI in lineage-22.2, never auto-copy"
+      "resolution": "SELECTED_STOCK_DEPENDENCY",
+      "provider": "vendor/lib64/libcdsprpc.so"
     },
     {
       "consumer": "vendor/lib64/libbitmlengine.so",
@@ -7064,8 +7499,8 @@
       "consumer": "vendor/lib64/libcamera_nn_stub.so",
       "bits": 64,
       "needed": "libcdsprpc.so",
-      "resolution": "SOURCE_PROVIDER_PENDING",
-      "reason": "AOSP/platform or interface candidate: must resolve module and ABI in lineage-22.2, never auto-copy"
+      "resolution": "SELECTED_STOCK_DEPENDENCY",
+      "provider": "vendor/lib64/libcdsprpc.so"
     },
     {
       "consumer": "vendor/lib64/libcamera_nn_stub.so",
